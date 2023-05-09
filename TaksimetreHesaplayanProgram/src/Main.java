@@ -14,6 +14,6 @@ public class Main {
         _taksimetreTutari=(_gidilenKm*_kmTutari)+_acilisUcreti;
         _taksimetreTutari= _taksimetreTutari < _minTutar ? _minTutar : _taksimetreTutari;
 
-        System.out.println(_taksimetreTutari);
+        System.out.println("Taksimetre Tutarı"+_taksimetreTutari);
     }
 }
