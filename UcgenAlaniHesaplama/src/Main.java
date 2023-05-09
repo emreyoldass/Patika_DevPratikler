@@ -16,6 +16,6 @@ public class Main {
 
         u  = (a+b+c) / 2;
         alan= Math.sqrt(u * (u - a) * (u - b) * (u - c));
-        System.out.println(alan);
+        System.out.println("Üçgenin Alanı" + alan);
     }
 }
